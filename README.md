@@ -27,25 +27,32 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/hH1D6bu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+The process of installing osTicket from scratch involves multiple steps after deploying resources on the Azure cloud computing platform. Once inside the Virtual Machine (VM) using a Remote Desktop Connection, the installation process typically includes the following steps: Install Internet Information Services (IIS), add PHP support by installing PHP and configuring it to work with IIS; Configure PHP settings within IIS Manager to ensure proper integration between PHP and IIS; Set up MySQL database where osTicket will store its data; etc.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ieAmJII.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+After installation of all files prior to installing osTicket, access IIS as administrator and click on PHP manger to register PHP. Then restart server.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/GqICUP3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Download osTicket and extract the folder named "upload" into c:\inetpub\wwwroot. Then rename it to “osTicket.” Now restart the server. Click on the server, then sites then Default then osTicket. On the right, click “Browse *:80” you will land on the page pictured above.
+</p>
+<br />
+<p>
+<img src="https://i.imgur.com/hYNXtv1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Access the PHP manager and enable these important extensions: php_imap.dll; php_intl.dll; php_opcache.dll. Then rename ost-sampleconfig.php to ost-config.php in C:\inetpub\wwwroot\osTicket\include. Lastly, create MySQL Database and install osTicket in the browser.
 </p>
 <br />
